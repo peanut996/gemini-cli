@@ -1,5 +1,5 @@
 {
-  "name": "@google/gemini-cli",
+  "name": "@peanut996/gemini-cli",
   "version": "0.1.12",
   "description": "Gemini CLI",
   "repository": {
@@ -28,7 +28,7 @@
     "sandboxImageUri": "us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox:0.1.12"
   },
   "dependencies": {
-    "@google/gemini-cli-core": "file:../core",
+    "@peanut996/gemini-cli-core": "file:../core",
     "@types/update-notifier": "^6.0.8",
     "command-exists": "^1.2.9",
     "diff": "^7.0.0",

@@ -25,7 +25,7 @@ import {
   UnauthorizedError,
   UserPromptEvent,
   DEFAULT_GEMINI_FLASH_MODEL,
-} from '@google/gemini-cli-core';
+} from '@peanut996/gemini-cli-core';
 import { type Part, type PartListUnion } from '@google/genai';
 import {
   StreamingState,

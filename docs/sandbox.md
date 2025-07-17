@@ -7,7 +7,7 @@ This document provides a guide to sandboxing in the Gemini CLI, including prereq
 Before using sandboxing, you need to install and set up the Gemini CLI:
 
 ```bash
-npm install -g @google/gemini-cli
+npm install -g @peanut996/gemini-cli
 ```
 
 To verify the installation

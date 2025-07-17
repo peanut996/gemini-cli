@@ -1,6 +1,6 @@
 # Gemini CLI
 
-[![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
+[![Gemini CLI CI](https://github.com/peanut996/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/peanut996/gemini-cli/actions/workflows/ci.yml)
 
 ![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
@@ -23,7 +23,7 @@ With the Gemini CLI you can:
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-   npx https://github.com/google-gemini/gemini-cli
+   npx https://github.com/peanut996/gemini-cli
    ```
 
    Or install it with:
@@ -70,6 +70,14 @@ The Vertex AI API provides a [free tier](https://cloud.google.com/vertex-ai/gene
 
 3. (Optionally) Add a billing account on your project to get access to [higher usage limits](https://cloud.google.com/vertex-ai/generative-ai/docs/quotas)
 
+### Use a custom endpoint:
+
+If you are using a proxy or a custom backend that conforms to the Gemini API, you can set the `GEMINI_BASE_URL` environment variable to point to your custom endpoint.
+
+   ```bash
+   export GEMINI_BASE_URL="YOUR_CUSTOM_ENDPOINT"
+   ```
+
 For other authentication methods, including Google Workspace accounts, see the [authentication](./docs/cli/authentication.md) guide.
 
 ## Examples
@@ -87,7 +95,7 @@ gemini
 Or work with an existing project:
 
 ```sh
-git clone https://github.com/google-gemini/gemini-cli
+git clone https://github.com/peanut996/gemini-cli
 cd gemini-cli
 gemini
 > Give me a summary of all of the changes that went in yesterday

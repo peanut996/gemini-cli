@@ -6,7 +6,11 @@
 
 import { GaxiosError } from 'gaxios';
 import { useState, useEffect, useCallback } from 'react';
-import { Config, CodeAssistServer, UserTierId } from '@peanut996/gemini-cli-core';
+import {
+  Config,
+  CodeAssistServer,
+  UserTierId,
+} from '@peanut996/gemini-cli-core';
 
 export interface PrivacyState {
   isLoading: boolean;
